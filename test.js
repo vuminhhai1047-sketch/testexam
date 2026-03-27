@@ -69,7 +69,7 @@ const createProducts = () => {
     return alert("Vui lòng không được để trống dữ liệu");
   }
 
-  if (!check == "") {
+  if (check !== -1 ) {
     return alert("Tên sản phẩm đã tồn tại");
   }
 
